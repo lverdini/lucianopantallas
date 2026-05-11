@@ -1,6 +1,6 @@
 import { Menu, Bell, Home, Mail, PlusCircle, CreditCard } from "lucide-react";
 
-export default function App() {
+function PantallaPrincipalApp() {
   return (
     <div className="size-full flex flex-col bg-white relative">
       {/* Header */}
@@ -88,3 +88,5 @@ export default function App() {
     </div>
   );
 }
+
+export default PantallaPrincipalApp;
